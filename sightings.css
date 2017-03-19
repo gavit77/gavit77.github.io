@@ -1,0 +1,106 @@
+html {
+     height: 100%;
+   }
+   body {
+      height: 100%;
+      background-color: FFFFFF;
+      font-family: helvetica;
+  line-height: 1.4;
+  font-weight: normal;
+  font-stretch: normal;
+  font-variant: normal;
+  font-size: 16px;
+
+   }
+
+
+   .container {
+       background-image: url("./chupacabra.jpg");
+       background-color: 19633C;
+       background-blend-mode: screen;
+     }
+     nav ul li a {
+       color:red;
+     }
+   header {
+
+
+
+       overflow:hidden;
+       /*margin-top: 30px;*/
+       background-color:3ED3B5;
+       padding:30px;
+       margin:0;
+       text-align: center
+       font-size:50px;
+       display: block;
+       width: ;
+       height:300px;
+
+       border-width: 0px;   /* defaults to medium */
+       border-color: C6E891;   /* defaults to color (literally, the color property) */
+       border-style: solid
+
+   }
+
+
+
+   h1 {
+     text-align:center;
+      color:black;
+      margin-top: 120px;
+
+   }
+   nav {
+       line-height:;
+       background-color: ;
+       width:125px;
+       display: inline-block;
+       vertical-align: top;
+   }
+   nav ul {
+       list-style-type: none;
+   }
+
+   .dropdown {
+             position: relative;
+             display: inline-block;
+           }
+           .dropdown-content {
+             display: none;
+             position: abosolute;
+
+             min-width: 160px;
+             box-shadow: 0px 8px 16px 0px rbga(0,0,0,0.2);
+             padding: 12px 16px;
+             z-indez: 1;
+           }
+           .dropdown:hover .dropdown-content {
+       display:block;
+   }
+   a {
+       color:green ;
+   }
+   section {
+       width: 516px;
+       display: inline-block;
+   }
+
+
+   aside {
+     width: 125px;
+     display: inline-block;
+     vertical-align: top;
+     background-color:;
+     font-size: ;
+   }
+   aside ul {
+       list-style-type: none;
+   }
+   footer {
+       width: 790px;
+       background-color:;
+       text-align:;
+       padding:5px;
+       display: block;
+   }

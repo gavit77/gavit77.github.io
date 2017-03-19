@@ -1,0 +1,84 @@
+html {
+      height: 100%;
+    }
+    body {
+      height: 100%;
+   background-color: #2E3C3C ;
+ }
+ .element {
+  width: 100%;
+  height: 100%;
+  animation: pulse 5s infinite;
+  height: 75px;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #000020 ;
+  }
+  100% {
+    background-color: #647054 ;
+  }
+}
+ header {
+
+   text-align: center;
+    color: orange;
+     background-color:#2E3C3C ;
+     text-decoration: underline red;
+     text-shadow: 1px 1px 1px #000,
+             3px 3px 5px blue;
+     padding:;
+     font-size:;
+     display: block;
+     width: 1565px;
+    }
+    header h1{
+      text-align:center;
+    }
+    nav {
+        line-height:20px;
+        background-color: #EEEEEE;
+        width:150px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    nav ul {
+        list-style-type: upper-roman;
+        font-size: 20px;
+    }
+    a {
+        color: orange;
+        font-family: georgia;
+    }
+    section {
+        width: 1565x;
+        display: inline-block;
+        padding-left:340px;
+        color: #161616;
+    }
+    section p {
+      font-size:20px;
+      text-align:center;
+    }
+    aside {
+      width: 125px;
+      display: inline-block;
+      vertical-align: top;
+      background-color:;
+      font-size: ;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 790px;
+        background-color:;
+        text-align:;
+        padding:5px;
+        display: block;
+    }
+    .ChupStuff {
+      width: 640px;
+      background-color: #EEEEEE;
+    }
